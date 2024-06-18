@@ -1,0 +1,16 @@
+{
+    "name": "evgenyart/util-translit",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Evgenyart\\UtilTranslit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evgenii Art",
+            "email": "evgeny.art@mail.ru"
+        }
+    ],
+    "require": {}
+}
