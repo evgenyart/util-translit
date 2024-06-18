@@ -6,7 +6,7 @@ composer require evgenyart/util-translit
 
 ```php <?php  
 $util = new UtilTranslit();
-echo $UtilTranslit->translit("Какой-то текст", $params = []);
+echo $util->translit("Какой-то текст", $params = []);
 ```    
     
  ### Параметры
@@ -20,7 +20,7 @@ echo $UtilTranslit->translit("Какой-то текст", $params = []);
 
 ```php <?php
 $util = new UtilTranslit();
-echo $UtilTranslit->translit("Какой-то текст", ['change_case' => false, 'replace_space' => false]);
+echo $util->translit("Какой-то текст", ['change_case' => false, 'replace_space' => false]);
 ```
     
     
