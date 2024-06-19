@@ -12,5 +12,7 @@
             "email": "evgeny.art@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+		"php" : ">=7.0.0"
+	}
 }
